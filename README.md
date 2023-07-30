@@ -4,18 +4,16 @@
 
 ## Introduction
 
-Welcome to "Operating Systems 101," a comprehensive learning resource designed specifically for B.Sc. Computer Science freshers. This project aims to provide you with a solid foundation in understanding the fundamental concepts of operating systems. Whether you are new to the field or seeking to deepen your knowledge, this guide will help you navigate the intricate world of operating systems.
+Welcome to "Operating Systems 101," a comprehensive learning resource designed specifically for B.Sc. Computer Science freshers. This project aims to provide you with a solid foundation in understanding the fundamental concepts of operating systems.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Table of Contents](#table-of-contents)
-3. [Getting Started](#getting-started)
-4. [Features](#features)
-5. [Topics Covered](#topics-covered)
-6. [How to Use This Project](#how-to-use-this-project)
-7. [Contributing](#contributing)
-8. [License](#license)
+1. [Getting Started](#getting-started)
+2. [Features](#features)
+3. [Topics Covered](#topics-covered)
+4. [How to Use This Project](#how-to-use-this-project)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Getting Started
 
@@ -81,12 +79,12 @@ Contributions to this project are more than welcome! If you find any errors, wan
 
 5. Open a pull request to the main repository, and we'll review your contributions.
 
-Your contributions will be acknowledged and help improve the learning experience for future B.Sc. Computer Science freshers.
+Your contributions will be acknowledged! :')
 
 ## License
 
-This project is licensed under the [GNU General Public License version 3 (GNU GPL v3)](LICENSE).
+[GNU General Public License version 3 (GNU GPL v3)](LICENSE).
 
 ---
 
-We hope "Operating Systems 101" enriches your understanding of operating systems and provides you with valuable insights to succeed in your B.Sc. Computer Science journey. Happy learning!
+We hope "Operating Systems 101" enriches your understanding of operating systems and provides you with valuable insights to succeed in your journey. Happy learning!
