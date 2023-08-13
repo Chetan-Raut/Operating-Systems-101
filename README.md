@@ -38,16 +38,48 @@ To get started with "Operating Systems 101," you can follow these steps:
 
 ## Topics Covered
 
-1. Introduction to Operating Systems
-2. Processes and Threads
-3. Process Synchronization and Deadlocks
-4. CPU Scheduling Algorithms
-5. Memory Management
-6. Virtual Memory and Paging
-7. File Systems and Disk Management
-8. I/O Systems and Device Drivers
-9. Distributed Systems and Networking Basics
-10. Security and Protection Mechanisms
+**UNIT I: Structure and Process Management**
+1. Operating System Structure
+2. Functions of an Operating System
+3. Characteristics of Modern OS
+4. Process Management:
+   - Process States
+   - Creation and Termination
+   - Operations and Concurrency
+   - Threads and Multithreading
+   - Micro Kernels
+5. CPU Scheduling:
+   - Schedulers
+   - Scheduling Methodology
+   - Algorithms: FCFS, SJF, RR, Priority
+
+**UNIT II: Performance, Deadlock, and Starvation**
+1. Performance Comparison:
+   - Deterministic Modeling
+   - Queuing Analysis
+   - Simulators
+2. Deadlock and Starvation:
+   - Resource Allocation Graph
+   - Conditions, Prevention, Detection, Recovery
+
+**UNIT III: Memory Management and Protection**
+1. Memory Management:
+   - Logical vs. Physical Address
+   - Swapping, Dynamic Loading, Linking
+   - Allocation Methods: Single, Multiple Partitions
+   - Compaction, Paging, Segmentation
+2. Protection
+
+**UNIT IV: I/O Management, File Systems, and Security**
+1. I/O Management:
+   - Hardware, Buffering, Disk I/O
+   - RAID, Disk Cache
+2. File Systems:
+   - Management System
+   - Access Methods, Directories, Allocation
+   - Space and Disk Management, Record Blocking
+3. Protection Mechanisms:
+   - Cryptography, Digital Signature, Authentication
 
 ## How to Use This Project
 
