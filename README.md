@@ -88,9 +88,9 @@ To get started with "Operating Systems 101," you can follow these steps:
 - Feel free to explore specific sections based on your learning needs and interests.
 - Engage with the code examples to gain practical insights into how operating systems concepts are implemented.
 
-## Resources
+## Resources and Reference
 
-Here are some recommended resources for further learning about data structures and algorithms:
+Here are some recommended resources for further learning about Operating Systems:
 
 - [```List of recommended books, websites, and tutorials```]  :')
 
