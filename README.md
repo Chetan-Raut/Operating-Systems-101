@@ -88,30 +88,11 @@ To get started with "Operating Systems 101," you can follow these steps:
 - Feel free to explore specific sections based on your learning needs and interests.
 - Engage with the code examples to gain practical insights into how operating systems concepts are implemented.
 
-## Contributing
+## Resources
 
-Contributions to this project are more than welcome! If you find any errors, want to suggest improvements, or wish to add more content, please follow these steps:
+Here are some recommended resources for further learning about data structures and algorithms:
 
-1. Fork the repository to your GitHub account.
-
-2. Create a new branch for your changes:
-   ```
-   git checkout -b feature/your-feature-name
-   ```
-
-3. Make your changes and commit them with descriptive messages:
-   ```
-   git commit -m "Add feature or fix issue"
-   ```
-
-4. Push the changes to your forked repository:
-   ```
-   git push origin feature/your-feature-name
-   ```
-
-5. Open a pull request to the main repository, and we'll review your contributions.
-
-Your contributions will be acknowledged! :')
+- [```List of recommended books, websites, and tutorials```]  :')
 
 ## License
 
