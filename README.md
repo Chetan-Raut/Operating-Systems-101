@@ -19,16 +19,12 @@ Welcome to "Operating Systems 101," a comprehensive learning resource designed s
 
 To get started with "Operating Systems 101," you can follow these steps:
 
-1. Open your web browser and go to the following URL:
+1. Go to the following URL:
    [https://Chetan-Raut.github.io/operating-system-101](https://Chetan-Raut.github.io/operating-system-101)
-
-2. Once the website loads, you'll be presented with a user-friendly interface.
    
-3. Navigate through the various sections of the website to learn about different operating system concepts. You can use the menu, buttons, and links to access different topics and interactive content.
+2. Navigate through the various sections of the website to learn about different operating system concepts. You can use the menu, buttons, and links to access different topics and interactive content.
 
-4. Feel free to interact with the provided simulations and examples to enhance your understanding of operating systems.
-
-5. If you have any questions or feedback, you can reach out to us through the "Contact" page on the website.
+3. Feel free to interact with the provided simulations and examples to enhance your understanding of operating systems.
 
 ## Features
 
@@ -102,4 +98,5 @@ Here are some recommended resources for further learning about Operating Systems
 
 ---
 
-We hope "Operating Systems 101" enriches your understanding of operating systems and provides you with valuable insights to succeed in your journey. Happy learning!
+We hope "Operating Systems 101" enriches your understanding of operating systems and provides you with valuable insights to succeed in your journey.If you have any questions or feedback, you can reach out to us through the "Contact" page on the website.
+Happy learning! 😉
