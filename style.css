@@ -1,0 +1,188 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #000;
+  padding: 15px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);  
+  /* Make navigation bar sticky */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.offcanvas-body .ud{
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Content container styles */
+.container {
+  padding: 30px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  margin-bottom: 15px;
+}
+
+/* Styles for the feature sections */
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  color: white;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  background-image: url('https://i.imgur.com/ei61ZhE.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.feature-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.feature-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/*overlapping issue*/
+.main-content {
+  padding-top: 3rem; /* Add some top padding to create space */
+}
+
+/* Styles for the unit sections */
+.unit {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.unit-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.unit-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.unit-topics {
+  margin-top: 20px;
+}
+
+.topic {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.topic-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the Help and support section */
+.help-support {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid black
+ /* margin-top: 1rem;*/
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/*button*/
+.popup {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button.clicked {
+  background-color: #f0f0f0; /* Default background color */
+  color: #333;
+}
+
+button.clicked:active {
+  background-color: #ccc; /* Darkened background color when clicked */
+  color: #222;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 0;
+  bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 1rem; 
+}
+
+/* Footer column styles */
+footer .col-md-6 {
+  margin-bottom: 10px; /* Add margin to the bottom of columns */
+}
+
+/* Footer link styles */
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5rem; /* Add margin between links */
+}
+
