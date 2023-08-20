@@ -19,14 +19,16 @@ Welcome to "Operating Systems 101," a comprehensive learning resource designed s
 
 To get started with "Operating Systems 101," you can follow these steps:
 
-1. **Clone the Repository**: Clone this repository to your local machine using the following command:
-   ```
-   git clone https://github.com/Chetan-Raut/Operating-Systems-101.git
-   ```
+1. Open your web browser and go to the following URL:
+   [https://Chetan-Raut.github.io/operating-system-101](https://Chetan-Raut.github.io/operating-system-101)
 
-2. **Explore the Content**: Once you have the repository on your machine, navigate through the project files and folders to explore the various topics covered.
+2. Once the website loads, you'll be presented with a user-friendly interface.
+   
+3. Navigate through the various sections of the website to learn about different operating system concepts. You can use the menu, buttons, and links to access different topics and interactive content.
 
-3. **Install Dependencies**: Some sections may include code examples or simulations. Make sure to install any required dependencies as mentioned in the respective sections.
+4. Feel free to interact with the provided simulations and examples to enhance your understanding of operating systems.
+
+5. If you have any questions or feedback, you can reach out to us through the "Contact" page on the website.
 
 ## Features
 
