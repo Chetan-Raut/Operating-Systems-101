@@ -20,7 +20,7 @@ Welcome to "Operating Systems 101," a comprehensive learning resource designed s
 To get started with "Operating Systems 101," you can follow these steps:
 
 1. Go to the following URL:
-   [https://Chetan-Raut.github.io/operating-system-101](https://Chetan-Raut.github.io/Operating-Systems-101/)
+   [https://Chetan-Raut.github.io/operating-system-101](https://Chetan-Raut.github.io/Operating-Systems-101)
    
 2. Navigate through the various sections of the website to learn about different operating system concepts. You can use the menu, buttons, and links to access different topics and interactive content.
 
