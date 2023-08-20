@@ -79,13 +79,6 @@ To get started with "Operating Systems 101," you can follow these steps:
 3. Protection Mechanisms:
    - Cryptography, Digital Signature, Authentication
 
-## How to Use This Project
-
-- Each topic is organized into its respective folder, containing detailed markdown files and code examples (if applicable).
-- Begin with the "Introduction to Operating Systems" section and proceed sequentially through the topics to build a strong understanding of operating systems.
-- Feel free to explore specific sections based on your learning needs and interests.
-- Engage with the code examples to gain practical insights into how operating systems concepts are implemented.
-
 ## Resources and Reference
 
 Here are some recommended resources for further learning about Operating Systems:
