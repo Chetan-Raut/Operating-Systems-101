@@ -29,7 +29,7 @@
   
  <nav class="navbar bg-body-tertiary fixed-top"> 
    <div class="container-fluid"> 
-     <a class="navbar-brand" href="#">Operating Systems 101</a> 
+     <a class="navbar-brand" href="index.html">Operating Systems 101</a> 
      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> 
        <span class="navbar-toggler-icon"></span> 
      </button> 
@@ -52,7 +52,7 @@
            
            <li class="nav-item dropdown active"> 
              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
-          Notes 📝 
+          Notes &#x1F4DD;
             </a> 
              <ul class="dropdown-menu active"> 
                <li><a class="dropdown-item" href="#">DSA Notes(G-Drive)</a></li> 
@@ -60,10 +60,10 @@
              </ul> 
            </li> 
          </ul> 
-         <form class="d-flex mt-3" role="search"> 
-           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> 
-           <button class="btn btn-outline-primary" type="submit">Search</button> 
-         </form> 
+         <form class="d-flex mt-3" role="search" id="searchForm">
+  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput">
+  <button class="btn btn-outline-primary" type="button" id="searchButton">Search</button>
+</form>
        </div> 
      </div> 
    </div> 
@@ -82,19 +82,18 @@
  
  <section class="unit">
   <div class="unit-icon">🖥️</div>
-  <h2 class="unit-title">UNIT - I</h2>
+  <h1 class="unit-title">UNIT - I</h1>
   <div class="unit-topics">
      <div class="topic">
-      <h3 class="topic-title"><a href="Units/Unit1/Unit1.html">Introduction</a></h3>
+      <h2 class="topic-title"><a href="Units/Unit1/Unit1.html">Introduction</a></h2>
       <p>Structure of Operating System, Operating System functions, Characteristics of Modern OS.</p>
     </div>
     <div class="topic">
-      <h3 class="topic-title"><a href="Units/Unit1/Unit1.html#Process-M">Process Management</a></h3>
-      <p>Process states, Creation, Termination, Operations on
-Process, Concurrent process, Processes Threads, Multithreading, Micro Kernels</p>
+      <h2 class="topic-title"><a href="Units/Unit1/Unit1.html#Process-M">Process Management</a></h2>
+      <p>Process states, Creation, Termination, Operations on Process, Concurrent process, Processes Threads, Multithreading, Micro Kernels</p>
     </div>
     <div class="topic">
-      <h3 class="topic-title"><a href="Units/Unit1/Unit1.html#CPU-Scheduling">CPU Scheduling</a></h3>
+      <h2 class="topic-title"><a href="Units/Unit1/Unit1.html#CPU-Scheduling">CPU Scheduling</a></h2>
       <p>Schedulers, Scheduling Methodology, CPU Scheduling Algorithm: FCFS, SJF, RR, Priority Scheduling.</p>
     </div>
   </div>
@@ -103,14 +102,14 @@ Process, Concurrent process, Processes Threads, Multithreading, Micro Kernels</p
   <!-- Unit - II -->
   <section class="unit">
     <div class="unit-icon">🔍</div>
-    <h2 class="unit-title">UNIT - II</h2>
+    <h1 class="unit-title">UNIT - II</h1>
     <div class="unit-topics">
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit2/Unit2.html#Performance-comparison">Performance comparison</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit2/Unit2.html#Performance-comparison">Performance comparison</a></h2>
         <p>Deterministic modeling, queuing analysis, simulators.</p>
       </div>
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit2/Unit2.html#DeadlockNStarvation">Deadlock and Starvation</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit2/Unit2.html#DeadlockNStarvation">Deadlock and Starvation</a></h2>
         <p>Resource Allocation Graph, deadlock prevention, detection, recovery from deadlock.</p>
       </div>
       <!-- Add other topics under UNIT - II -->
@@ -120,10 +119,10 @@ Process, Concurrent process, Processes Threads, Multithreading, Micro Kernels</p
   <!-- Unit - III -->
   <section class="unit">
     <div class="unit-icon">🧠</div>
-    <h2 class="unit-title">UNIT - III</h2>
+    <h1 class="unit-title">UNIT - III</h1>
     <div class="unit-topics">
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit3/Unit3.html#MemoryManagement">Memory Management</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit3/Unit3.html#MemoryManagement">Memory Management</a></h2>
         <p>Logical Vs. Physical Address Space, Swapping, Memory Management Requirement, Dynamic Loading and Dynamic Linking,Memory Allocation 
 Method: Single Partition allocation, Multiple Partitions, Compaction, paging,segmentation, Segmentation with paging. Protection.</p>
       </div>
@@ -134,25 +133,28 @@ Method: Single Partition allocation, Multiple Partitions, Compaction, paging,seg
   <!-- Unit - IV -->
   <section class="unit">
     <div class="unit-icon">💾</div>
-    <h2 class="unit-title">UNIT - IV</h2>
+    <h1 class="unit-title">UNIT - IV</h1>
     <div class="unit-topics">
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit4/Unit4.html#IO-Management">I/O Management</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit4/Unit4.html#IO-Management">I/O Management</a></h2>
         <p>I/O hardware, buffering, disk I/O, RAID, disk cache.</p>
       </div>
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit4/Unit4.html#File-Management">File Management</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit4/Unit4.html#File-Management">File Management</a></h2>
         <p>File Management system, File Accessing Methods, File Directories, 
 File Allocation Methods, File Space Management, Disk Space Management, Record blocking. 
 </p>
       </div>
       <div class="topic">
-        <h3 class="topic-title"><a href="Units/Unit4/Unit4.html#Protection-Mechanism">Protection Mechanisms</a></h3>
+        <h2 class="topic-title"><a href="Units/Unit4/Unit4.html#Protection-Mechanism">Protection Mechanisms</a></h2>
         <p>Cryptography, digital signature, user authentication.</p>
       </div>
       <!-- Add other topics under UNIT - IV -->
     </div>
-  </section> 
+  </section>
+ 
+ 
+ 
  
   
   <section class="help-support">
@@ -171,29 +173,34 @@ File Allocation Methods, File Space Management, Disk Space Management, Record bl
     Thanks for submitting your feedback! 
 </div>
 
+
   <p>Help us make these docs great!</p>
-  <p>All these documentations are open source. See something that's wrong or unclear? Submit a <a href="">pull request.</a></p>
-  <p><a href="">Learn how to contribute</a></p>
+  <p>All these documentations are open source. See something that's wrong or unclear? Submit a 
+  <a href="https://github.com/Chetan-Raut/Operating-Systems-101/pulls">pull request.</a></p>
+  <p><a href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects?platform=windows">Learn how to contribute</a></p>
   <p>Still need help? Ask the <a href="https://github.com/Chetan-Raut/Operating-Systems-101">GitHub community</a></p>
   <p>Contact support &#64;<a href="mailto:chetan.raut2009@gmail.com?subject=Contact%20OS-101">Chetan Raut</a></p>
-</section>  
+</section>
+ 
+  
   
  <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-6 text-center text-md-start">
-        &copy; 2023 Operating Systems 101
+        &copy; 2023 <a href="https://github.com/Chetan-Raut">Chetan Raut</a>
       </div>
       <div class="col-md-6 text-center text-md-end">
         <a href="#">Terms</a>
         <span class="mx-2">|</span>
         <a href="#">Privacy</a>
         <span class="mx-2">|</span>
-        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
       </div>
     </div>
   </div>
 </footer>
+
 
  <!--Bootstrap JS Bundle--> 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
