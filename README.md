@@ -2,6 +2,8 @@
 
 ![Operating Systems 101 Banner](banner.png)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6cb67344-cf3e-44cb-8474-b5e8172a575f/deploy-status)](https://app.netlify.com/sites/operating-systems-101/deploys)
+
 ## Introduction
 
 Welcome to "Operating Systems 101," a comprehensive learning resource designed specifically for B.Sc. Computer Science freshers. This project aims to provide you with a solid foundation in understanding the fundamental concepts of operating systems.
