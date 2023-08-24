@@ -15,8 +15,7 @@ Welcome to "Operating Systems 101," a comprehensive learning resource designed s
 1. [Getting Started](#getting-started)
 2. [Features](#features)
 3. [Topics Covered](#topics-covered)
-4. [Contributing](#contributing)
-5. [License](#license)
+4. [License](#license)
 
 ## Getting Started
 
