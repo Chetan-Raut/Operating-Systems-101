@@ -99,6 +99,10 @@ p {
   margin-top: 1rem;
 }
 
+.unit p {
+   color: rgb(125,133,144);
+}
+
 .unit-icon {
   font-size: 36px;
   margin-bottom: 10px;
