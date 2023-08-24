@@ -5,5 +5,10 @@ body, h1, h2, h3, p {
 }
 
 .unit-content {
-   padding: 20px;
+   padding-top: 5rem;
 }
+
+.intro p {
+  color: rgb(125,133,144);
+}
+ 
