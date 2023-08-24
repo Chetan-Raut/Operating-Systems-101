@@ -29,7 +29,7 @@
   
  <nav class="navbar bg-body-tertiary fixed-top"> 
    <div class="container-fluid"> 
-     <a class="navbar-brand" href="#">Operating Systems 101</a> 
+     <a class="navbar-brand" href="../../">Operating Systems 101</a> 
      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> 
        <span class="navbar-toggler-icon"></span> 
      </button> 
@@ -44,15 +44,15 @@
              <a class="nav-link active" aria-current="page" href="../../index.html">Home</a> 
            </li> 
            <li class="nav-item"> 
-             <a class="nav-link active" href="#">Important Questions</a> 
+             <a class="nav-link ud active" href="#">Important Questions</a> 
            </li>   
            <li class="nav-item"> 
-             <a class="nav-link active" href="#">PYQ(Google drive)</a> 
+             <a class="nav-link ud active" href="#">PYQ(Google drive)</a> 
            </li> 
            
            <li class="nav-item dropdown active"> 
              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
-          Notes 📝 
+          Notes &#x1F4DD;
             </a> 
              <ul class="dropdown-menu active"> 
                <li><a class="dropdown-item" href="#">DSA Notes(G-Drive)</a></li> 
@@ -71,16 +71,74 @@
   
   
 <section class="unit-content">
-  <h2 class="unit-title">UNIT - I</h2>
+  <h1 class="unit-title">UNIT - I</h1>
   <div class="unit-topics">
     <div class="topic">
-      <h3 class="topic-title">Introduction</h3>
-      <p>Operating systems are fundamental software that manage computer hardware and provide services for software applications. In this section, we'll explore key concepts:</p>
-      <ul>
-        <li><strong>Structure of Operating System:</strong> The structure refers to the organization and components of an operating system. This includes the kernel, file system, device drivers, and user interface layers. The kernel is the core that manages hardware resources and provides essential services to applications.</li>
-        <li><strong>Operating System Functions:</strong> Operating systems perform various functions, including process management, memory management, file system management, and device management. Process management involves creating, scheduling, and terminating processes. Memory management ensures efficient memory allocation and deallocation. File system management handles storage and retrieval of files. Device management manages communication with hardware devices.</li>
-        <li><strong>Characteristics of Modern OS:</strong> Modern operating systems possess several characteristics:</li>
-      </ul>
+       <div class="intro">
+      <h2 class="topic-title">Introduction</h2>
+      <p>An operating system is software that manages the computer hard-ware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent programs from interfering with the proper operation of the system.</p>
+      </div>
+     <ul>
+        <h3>Structure of Operating System:</h3>
+        <p>The structure refers to the organization and components of an operating system. This includes the kernel, file system, device drivers, and user interface layers. The kernel is the core that manages hardware resources and provides essential services to applications.</p>
+        
+        <h3>Operating System Functions:</h3> 
+        <p>Operating systems perform various functions, including process management, memory management, file system management, and device management. Process management involves creating, scheduling, and terminating processes. Memory management ensures efficient memory allocation and deallocation. File system management handles storage and retrieval of files. Device management manages communication with hardware devices.
+     <br>   Certainly! Here are more detailed points explaining each of the operating system functions:</p>
+
+<h6>Process Management:</h6>
+<p>
+   <ol>
+      <li><b>Process Creation:</b></li> 
+      <p>The OS enables the creation of new processes, allowing programs to run concurrently.<br></p>
+      <li><b>Process Scheduling:</b></li>
+      <p>It decides which process gets access to the CPU and for how long, ensuring fair and efficient utilization of resources.<br></p>
+      <li><b>Process Termination:</b></li>
+      <p>The OS manages the orderly termination of processes, releasing resources they were using.<br></p>
+      <li><b>Inter-Process Communication (IPC):</b></li>
+      <p> It facilitates communication and data sharing between different processes, aiding in collaborative tasks.</p>
+   </ol>
+
+<h6>Memory Management:</h6>
+<ol>
+   <li><b>Memory Allocation:</b></li>
+   <p>The OS assigns memory blocks to processes and ensures each process gets the memory it requires.</p>
+   <li><b>Memory Protection:</b></li>
+   <p>It prevents processes from accessing memory locations they aren't authorized to, enhancing system stability and security.</p>
+   <li><b>Memory Mapping:</b></li>
+   <p>The OS facilitates memory mapping, allowing files to be loaded into memory for faster access by processes.</p>
+   <li><b>Virtual Memory:</b></li>
+   <p>It enables processes to use more memory than is physically available by swapping data between RAM and disk storage.</p>
+</ol>
+
+<h6>File System Management:</h6>
+<ol>
+   <li><b>File Creation/Deletion:</b></li>
+   <p>The OS provides interfaces for creating and deleting files, managing their metadata.</p>
+   <li><b>File Reading/Writing:</b></li>
+   <p>It enables applications to read from and write to files, ensuring data integrity and proper synchronization.</p> 
+   <li><b>Directory Management:</b></li>
+   <p>The OS organizes files into directories and subdirectories, helping users locate and manage their files effectively.</p>
+   <li><b>File Permissions:</b></li>
+   <p>It enforces access control by defining who can read, write,or execute certain files,ensuring data security.</p>
+</ol>
+
+<h6>Device Management:</h6>
+<ol>
+   <li><b>Device Drivers:</b></li>
+   <p>The OS utilizes device drivers to interface with hardware devices, translating higher-level commands into device-specific instructions.</p>
+   <li><b>I/O Operations:</b></li>
+   <p>It manages input/output operations between applications and devices, ensuring data transfer and synchronization.</p>
+   <li><b>Plug and Play:</b></li>
+   <p>The OS supports the automatic detection and configuration of newly connected hardware devices.</p>
+   <li><b>Interrupt Handling:</b></li>
+   <p>It manages interrupts generated by hardware devices, ensuring timely response and efficient utilization of system resources.</p>
+</ol>
+
+<p>In summary,<br> the operating system performs a multitude of functions that are vital for managing resources, enabling communication, ensuring security, and providing a user-friendly interface within a computer system.</p>
+        
+        <h3>Characteristics of Modern OS:</h3> <p>Modern operating systems possess several characteristics:</p>
+     
       <ul>
         <li><strong>Multiuser:</strong> Modern operating systems allow multiple users to access and use the system simultaneously.</li>
         <li><strong>Multitasking:</strong> Operating systems manage multiple tasks or processes concurrently, allowing users to switch between applications seamlessly.</li>
@@ -91,17 +149,63 @@
         <li><strong>User Interface:</strong> Modern OS offers graphical user interfaces (GUIs) that make it easier for users to interact with the system and applications.</li>
         <li><strong>Resource Management:</strong> OS manages hardware resources, such as CPU time, memory, and devices, to ensure fair and efficient utilization.</li>
       </ul>
+      <p></p>
       <p>Understanding these aspects of operating systems is crucial for comprehending how they function and interact with software applications.</p>
     </div>
+    
     <div class="topic">
-      <h3 class="topic-title" id="Process-M">Process Management</h3>
+      <h2 class="topic-title" id="Process-M">Process Management</h2>
       <p>Dive into the world of processes in operating systems. Understand the different states a process can be in, learn how processes are created and terminated, and explore the operations that can be performed on processes. Additionally, explore concepts related to concurrent processes, threads, and microkernels.</p>
+       <h2>States of a Process:</h2>
+    <ol>
+        <li><b>New:</b> The process is being created but not yet ready to execute.</li>
+        <li><b>Ready: </b>The process is waiting to be assigned to a processor for execution.</li>
+        <li><b>Running:</b> The process is currently being executed on a CPU.</li>
+        <li><b>Blocked (Waiting):</b> The process is unable to execute because it's waiting for an event like I/O completion or a resource to become available.</li>
+        <li><b>Terminated (Exit):</b> The process has finished executing.</li>
+    </ol>
+
+    <h2>Difference Between Processes and Threads:</h2>
+    <ul>
+        <li><b>Definition:</b> A process is an independent program in execution, with its own memory space and system resources. A thread is a smaller unit of a process, sharing the same memory space and resources as other threads within the same process.</li>
+        <li><b>Resource Overhead:</b> Processes have higher resource overhead as they require separate memory space and resources. Threads within a process share resources, resulting in lower overhead.</li>
+        <li><b>Communication:</b> Inter-process communication (IPC) is more complex and slower, requiring mechanisms like pipes or message queues. Threads can communicate more easily via shared memory.</li>
+        <li><b>Isolation:</b> Processes are isolated from each other, preventing one process from affecting others directly. Threads within a process share memory, so a bug in one thread can affect others.</li>
+        <li><b>Creation Time:</b> Creating a new process is generally more time-consuming than creating a new thread.</li>
+        <li><b>Switching Overhead:</b> Switching between processes requires more overhead due to the need to switch memory and resources. Thread switching within a process is quicker and requires less overhead.</li>
+        <li><b>Failure Isolation:</b> If a process fails, it doesn't affect other processes. In threads, a failure in one thread can affect the entire process.</li>
+        <li><b>Scalability:</b> Threads can lead to better scalability on multi-core processors, as different threads can run on different cores concurrently. Processes may not take full advantage of multi-core systems.</li>
+        <li><b>Parallelism:</b> Processes run independently, offering true parallelism. Threads run within the context of a process and may not provide true parallelism.</li>
+    </ul>
     </div>
+    
     <div class="topic">
-      <h3 class="topic-title" id="CPU-Scheduling">CPU Scheduling</h3>
-      <p>Delve into the crucial aspect of CPU scheduling. Discover different types of schedulers, learn about the scheduling methodology, and explore CPU scheduling algorithms such as First-Come, First-Served (FCFS), Shortest Job First (SJF), Round Robin (RR), and Priority Scheduling.</p>
+      <h2 class="topic-title" id="CPU-Scheduling">CPU Scheduling</h2>
+     <p> CPU scheduling is a crucial aspect of an operating system that determines how the central processing unit (CPU) handles multiple processes concurrently. Different processes compete for CPU time, and the goal is to optimize resource utilization and response time.</p>
+     
+<p>There are several types of CPU scheduling algorithms:
+</p>
+
+<ol>
+   <li><b>First-Come, First-Served (FCFS):</b></li>
+    <p>Processes are executed in the order they arrive in the ready queue. It's simple but can lead to the "convoy effect," where short processes are delayed by longer ones.
+</p>
+   <li><b>Shortest Job Next (SJN) / Shortest Job First (SJF)</b></li>
+   <p>The process with the smallest execution time is given priority. This minimizes average waiting time but requires knowledge of process durations, which might not be available.
+</p>
+   <li><b>Priority Scheduling:</b></li>
+   <p>Each process is assigned a priority, and the CPU executes the highest priority process first. It can be preemptive (priorities can change dynamically) or non-preemptive (once a process starts, it continues until completion).</p>
+   <li><b>Round Robin (RR):</b></li> 
+   <p>Each process gets a fixed time slice (quantum) to execute. If the process doesn't complete in its time slice, it's moved to the back of the queue. It's fair and prevents long processes from hogging the CPU.</p>
+   <li><b>Multilevel Queue Scheduling:</b></li>
+   <p>Processes are divided into different queues based on priority. Each queue has its own scheduling algorithm. Processes move between queues based on their behavior and priority.</p>
+   <li><b>Multilevel Feedback Queue Scheduling:</b></li>
+   <p>Similar to multilevel queues, but processes can move between queues based on their behavior and recent CPU usage. This allows processes to move to a more appropriate priority queue.</p>
+ </ol>
+
+<p>These algorithms aim to balance the trade-offs between throughput, response time, fairness, and system efficiency based on the specific needs of the computing environment. Different scenarios may require different scheduling strategies.</p>
+           
     </div>
-    <!-- You can continue adding more topics here -->
   </div>
 </section>
   
@@ -129,12 +233,12 @@
 
 
   <p>Help us make these docs great!</p>
-  <p>All these documentations are open source. See something that's wrong or unclear? Submit a <a href="">pull request.</a></p>
-  <p><a href="">Learn how to contribute</a></p>
+  <p>All these documentations are open source. See something that's wrong or unclear? Submit a
+   <a href="https://github.com/Chetan-Raut/Operating-Systems-101/pulls">pull request.</a></p>
+  <p><a href="https://docs.github.com/en/get-started/quickstart/contributing-to-projects?platform=windows">Learn how to contribute</a></p>
   <p>Still need help? Ask the <a href="https://github.com/Chetan-Raut/Operating-Systems-101">GitHub community</a></p>
   <p>Contact support &#64;<a href="mailto:chetan.raut2009@gmail.com?subject=Contact%20OS-101">Chetan Raut</a></p>
 </section>
-  
   
   
   
@@ -143,14 +247,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 text-center text-md-start">
-        &copy; 2023 Operating Systems 101
+        &copy; 2023 <a href="https://github.com/Chetan-Raut">Chetan Raut</a>
       </div>
       <div class="col-md-6 text-center text-md-end">
         <a href="#">Terms</a>
         <span class="mx-2">|</span>
         <a href="#">Privacy</a>
         <span class="mx-2">|</span>
-        <a href="#">Blog</a>
+        <a href="#">Portfolio</a>
       </div>
     </div>
   </div>
