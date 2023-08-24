@@ -4,7 +4,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6cb67344-cf3e-44cb-8474-b5e8172a575f/deploy-status)](https://app.netlify.com/sites/operating-systems-101/deploys) 
 
-![Visitors](https://shields-io-visitor-counter.herokuapp.com/badge?page=Operating-systems-101.visitor-badge)
+![Visitors](https://shields-io-visitor-counter.herokuapp.com/badge?page=Chetan-Raut/Operating-systems-101.visitor-badge)
 
 ## Introduction
 
