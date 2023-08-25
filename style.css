@@ -68,9 +68,9 @@ p {
   border-radius: 5px;
   background-color: #f7f7f7;
   color: white;
-  margin-top: 1rem;
-  padding-top: 2rem;
-  background-image: url('https://i.imgur.com/ei61ZhE.jpeg');
+  margin-top: 2rem;
+  padding-top: 15rem;
+  background-image: url('src/Linux-girl-blue.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -140,9 +140,12 @@ p {
 
 .icon-button {
   background: none;
-  border: none;
+  border: 2px solid #4078c0;
+  border-color: #4078c0;
+  border-radius: 20%;
   cursor: pointer;
   font-size: 24px;
+  margin: 2%;
 }
 
 /*button*/
