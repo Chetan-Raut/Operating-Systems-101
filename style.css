@@ -103,9 +103,16 @@ p {
    color: rgb(125,133,144);
 }
 
+.unit h1 {
+   text-align: center;
+}
+
 .unit-icon {
   font-size: 36px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .unit-title {
