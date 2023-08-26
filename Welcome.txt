@@ -1,1 +1,17 @@
+Welcome to the Operating Systems 101 Repository!
 
+This repository hosts the source code and resources for the Operating Systems 101 website, which serves as a comprehensive guide to operating systems for BSc CS students at RTMNU University.
+
+Repository Details:
+- Repository Owner: Chetan Raut
+- Website URL: https://chetan-raut.github.io/Operating-Systems-101/
+- GitHub Profile: https://github.com/Chetan-Raut
+
+Feel free to explore the different units and topics covered in this guide. If you find any issues or have suggestions for improvement, please don't hesitate to contribute by submitting pull requests.
+
+For more information about contributing and how to get involved, please refer to the repository's GitHub community and documentation.
+
+Thank you for visiting and using Operating Systems 101!
+
+Best regards,
+Chetan Raut
