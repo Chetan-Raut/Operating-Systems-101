@@ -164,18 +164,61 @@
         <li><b>Terminated (Exit):</b> The process has finished executing.</li>
     </ol>
 
-    <h2>Difference Between Processes and Threads:</h2>
-    <ul>
-        <li><b>Definition:</b> A process is an independent program in execution, with its own memory space and system resources. A thread is a smaller unit of a process, sharing the same memory space and resources as other threads within the same process.</li>
-        <li><b>Resource Overhead:</b> Processes have higher resource overhead as they require separate memory space and resources. Threads within a process share resources, resulting in lower overhead.</li>
-        <li><b>Communication:</b> Inter-process communication (IPC) is more complex and slower, requiring mechanisms like pipes or message queues. Threads can communicate more easily via shared memory.</li>
-        <li><b>Isolation:</b> Processes are isolated from each other, preventing one process from affecting others directly. Threads within a process share memory, so a bug in one thread can affect others.</li>
-        <li><b>Creation Time:</b> Creating a new process is generally more time-consuming than creating a new thread.</li>
-        <li><b>Switching Overhead:</b> Switching between processes requires more overhead due to the need to switch memory and resources. Thread switching within a process is quicker and requires less overhead.</li>
-        <li><b>Failure Isolation:</b> If a process fails, it doesn't affect other processes. In threads, a failure in one thread can affect the entire process.</li>
-        <li><b>Scalability:</b> Threads can lead to better scalability on multi-core processors, as different threads can run on different cores concurrently. Processes may not take full advantage of multi-core systems.</li>
-        <li><b>Parallelism:</b> Processes run independently, offering true parallelism. Threads run within the context of a process and may not provide true parallelism.</li>
-    </ul>
+   <h2>Processes vs Threads</h2>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Processes</th>
+    <th>Threads</th>
+  </tr>
+  <tr>
+    <td><strong>Definition</strong></td>
+    <td>An independent program in execution, with its own memory space and resources.</td>
+    <td>A smaller unit of a process, sharing memory space and resources within the same process.</td>
+  </tr>
+  <tr>
+    <td><strong>Resource Overhead</strong></td>
+    <td>Higher overhead due to separate memory space and resources for each process.</td>
+    <td>Lower overhead as threads within a process share resources.</td>
+  </tr>
+  <tr>
+    <td><strong>Communication</strong></td>
+    <td>More complex and slower inter-process communication (IPC) mechanisms required.</td>
+    <td>Easier communication via shared memory.</td>
+  </tr>
+  <tr>
+    <td><strong>Isolation</strong></td>
+    <td>Processes are isolated, preventing direct impact on others.</td>
+    <td>Threads share memory, so a bug in one thread can affect others.</td>
+  </tr>
+  <tr>
+    <td><strong>Creation Time</strong></td>
+    <td>Creating a new process is more time-consuming.</td>
+    <td>Creating a new thread is generally quicker.</td>
+  </tr>
+  <tr>
+    <td><strong>Switching Overhead</strong></td>
+    <td>Switching between processes requires more overhead.</td>
+    <td>Thread switching within a process is quicker and requires less overhead.</td>
+  </tr>
+  <tr>
+    <td><strong>Failure Isolation</strong></td>
+    <td>Process failures don't affect other processes.</td>
+    <td>A failure in one thread can affect the entire process.</td>
+  </tr>
+  <tr>
+    <td><strong>Scalability</strong></td>
+    <td>May not fully utilize multi-core processors for scalability.</td>
+    <td>Can lead to better scalability on multi-core processors.</td>
+  </tr>
+  <tr>
+    <td><strong>Parallelism</strong></td>
+    <td>Offers true parallelism as processes run independently.</td>
+    <td>May not provide true parallelism within a process.</td>
+  </tr>
+</table>
+
     </div>
     
     <div class="topic">
