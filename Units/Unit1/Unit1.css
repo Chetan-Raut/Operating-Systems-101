@@ -1,3 +1,20 @@
+/* Hide table headers on smaller screens */
+    @media screen and (max-width: 600px) {
+      th {
+        display: none;
+      }
+
+      /* Display table rows as blocks */
+      tr {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      td {
+        /* Add space between rows */
+        margin-bottom: 4px;
+      }
+    }
 /* Reset some default styling */
 body, h1, h2, h3, p {
   margin: 0;
