@@ -15,7 +15,7 @@ body, h1, h2, h3, p {
 table {
   border: 1px solid black; /* Add this line to draw table borders */
   border-collapse: collapse;
-  width: 100%;
+  width: 70vw;
 }
 
 th, td {
