@@ -1,20 +1,25 @@
-/* Hide table headers on smaller screens */
-    @media screen and (max-width: 600px) {
-      th {
-        display: none;
-      }
+/* Add this CSS to your stylesheet */
+@media (max-width: 600px) { /* Adjust the breakpoint as needed */
+  table {
+    width: 100%;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+  th, td {
+    padding: 5px;
+  }
+  
+  th {
+    display: none; /* Hide table headers on small screens */
+  }
+  
+  td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+  }
+}
 
-      /* Display table rows as blocks */
-      tr {
-        display: block;
-        margin-bottom: 10px;
-      }
-
-      td {
-        /* Add space between rows */
-        margin-bottom: 4px;
-      }
-    }
 
 /* Reset some default styling */
 body, h1, h2, h3, p {
