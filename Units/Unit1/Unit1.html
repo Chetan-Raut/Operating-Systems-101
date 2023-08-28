@@ -189,33 +189,58 @@
   </tr>
   <tr>
     <td><strong>Isolation</strong></td>
-    <td>Processes are isolated, preventing direct impact on others.</td>
-    <td>Threads share memory, so a bug in one thread can affect others.</td>
+    <td>Processes are isolated, preventing direct impact on others.</td><h2>Processes vs Threads</h2>
+
+<table>
+  <tr>
+    <th></th>
+    <th>Processes</th>
+    <th>Threads</th>
+  </tr>
+  <tr>
+    <td><strong>Definition</strong></td>
+    <td data-label="Processes">An independent program in execution, with its own memory space and resources.</td>
+    <td data-label="Threads">A smaller unit of a process, sharing memory space and resources within the same process.</td>
+  </tr>
+  <tr>
+    <td><strong>Resource Overhead</strong></td>
+    <td data-label="Processes">Higher overhead due to separate memory space and resources for each process.</td>
+    <td data-label="Threads">Lower overhead as threads within a process share resources.</td>
+  </tr>
+  <tr>
+    <td><strong>Communication</strong></td>
+    <td data-label="Processes">More complex and slower inter-process communication (IPC) mechanisms required.</td>
+    <td data-label="Threads">Easier communication via shared memory.</td>
+  </tr>
+  <tr>
+    <td><strong>Isolation</strong></td>
+    <td data-label="Processes">Processes are isolated, preventing direct impact on others.</td>
+    <td data-label="Threads">Threads share memory, so a bug in one thread can affect others.</td>
   </tr>
   <tr>
     <td><strong>Creation Time</strong></td>
-    <td>Creating a new process is more time-consuming.</td>
-    <td>Creating a new thread is generally quicker.</td>
+    <td data-label="Processes">Creating a new process is more time-consuming.</td>
+    <td data-label="Threads">Creating a new thread is generally quicker.</td>
   </tr>
   <tr>
     <td><strong>Switching Overhead</strong></td>
-    <td>Switching between processes requires more overhead.</td>
-    <td>Thread switching within a process is quicker and requires less overhead.</td>
+    <td data-label="Processes">Switching between processes requires more overhead.</td>
+    <td data-label="Threads">Thread switching within a process is quicker and requires less overhead.</td>
   </tr>
   <tr>
     <td><strong>Failure Isolation</strong></td>
-    <td>Process failures don't affect other processes.</td>
-    <td>A failure in one thread can affect the entire process.</td>
+    <td data-label="Processes">Process failures don't affect other processes.</td>
+    <td data-label="Threads">A failure in one thread can affect the entire process.</td>
   </tr>
   <tr>
     <td><strong>Scalability</strong></td>
-    <td>May not fully utilize multi-core processors for scalability.</td>
-    <td>Can lead to better scalability on multi-core processors.</td>
+    <td data-label="Processes">May not fully utilize multi-core processors for scalability.</td>
+    <td data-label="Threads">Can lead to better scalability on multi-core processors.</td>
   </tr>
   <tr>
     <td><strong>Parallelism</strong></td>
-    <td>Offers true parallelism as processes run independently.</td>
-    <td>May not provide true parallelism within a process.</td>
+    <td data-label="Processes">Offers true parallelism as processes run independently.</td>
+    <td data-label="Threads">May not provide true parallelism within a process.</td>
   </tr>
 </table>
 
