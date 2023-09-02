@@ -28,7 +28,7 @@ a {
 }
 
 .navbar-brand {
-  font-size: 24px;
+  font-size: 1rem;
   font-weight: bold;
   color: #fff;
 }
@@ -44,7 +44,7 @@ a {
 
 /* Content container styles */
 .container {
-  padding: 30px;
+  padding: 1rem;
 }
 
 /* Heading styles */
@@ -103,16 +103,9 @@ p {
    color: rgb(125,133,144);
 }
 
-.unit h1 {
-   text-align: center;
-}
-
 .unit-icon {
   font-size: 36px;
   margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .unit-title {
@@ -136,6 +129,12 @@ p {
   margin-bottom: 10px;
 }
 
+.unit-icon,.unit-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
 /* Styles for the Help and support section */
 .help-support {
   background-color: #f7f7f7;
@@ -151,7 +150,7 @@ p {
   border-color: #4078c0;
   border-radius: 20%;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin: 2%;
 }
 
@@ -190,7 +189,7 @@ footer {
 
 /* Footer column styles */
 footer .col-md-6 {
-  margin-bottom: 10px; 
+  margin-bottom: 10px; /* Add margin to the bottom of columns */
 }
 
 /* Footer link styles */
@@ -200,3 +199,157 @@ footer a {
   margin: 0 0.5rem; /* Add margin between links */
 }
 
+
+/*Media Queries for Responsiveness*/
+
+/* Media Query for 768px and larger screens */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 2rem;    
+  }
+  .navbar-brand {
+  font-size: 2rem;
+  }
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 1.5rem; 
+}
+  .container {
+      font-size: 1.2rem;
+  }
+  .feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.7rem;
+   }
+
+  .feature-title {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+   }
+  .unit {
+   font-size: 2rem;
+   }
+   .topic-title {
+       font-size: 2rem;
+   }
+  .main-content {
+  padding-top: 18rem;
+   }
+   .icon-button {
+  font-size: 2rem;
+  }
+  .help-support p {
+      font-size: 1.4rem;
+  }
+}
+
+/* Media Query for 1024px and larger screens */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 3rem;    
+  }
+  .navbar-brand {
+  font-size: 4rem;
+  }
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 2rem; 
+}
+  .container {
+  font-size: 1.5rem;
+  }
+  .feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+   }
+
+  .feature-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+   }
+  .main-content {
+  padding-top: 30rem;
+   }
+   .icon-button {
+  font-size: 2.5rem;
+  }
+  .help-support p {
+      font-size: 1.7rem;
+  }
+}
+
+/* Media Query for 1440px and larger screens */
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 4rem;    
+  }
+  .navbar-brand {
+  font-size: 4rem;
+  }
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 2.5rem; 
+}
+  .container {
+  font-size: 2rem;
+  }
+  .feature-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+   }
+
+  .feature-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+   }
+  .main-content {
+  padding-top: 2rem;
+   }
+   .feature {
+     height: 100vh;
+     width: 100%;
+   }
+   .icon-button {
+  font-size: 3rem;
+  }
+  .help-support p {
+      font-size: 2rem;
+  }
+}
+
+/* Media Query for 2560px and larger screens */
+@media screen and (min-width: 2560px) {
+  body {
+    font-size: 5rem;   
+  }
+  .navbar-brand {
+  font-size: 5rem;
+  }
+  .offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-size: 4rem; 
+}
+  .container {
+  font-size: 3rem;
+  }
+  .feature-icon {
+  font-size: 5rem;
+  margin-bottom: 2rem;
+   }
+
+  .feature-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+   }
+  .main-content {
+  padding-top: 60rem;
+   }  
+   .feature {
+     height: 100vh;
+     width: 100%;
+   }
+   .icon-button {
+  font-size: 4rem;
+  }
+  .help-support p {
+      font-size: 3rem;
+  }
+  footer a {
+  margin: 0 1rem;
+}
