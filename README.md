@@ -1,6 +1,6 @@
 **Project Name: Operating Systems 101 for [RTMNU] B.Sc. Computer Science Freshers**
 
-![Operating Systems 101 Banner](src/Linux-girl-blue.jpg)
+![Operating Systems 101 Banner](./src/Linux-girl-blue.jpg)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6cb67344-cf3e-44cb-8474-b5e8172a575f/deploy-status)](https://app.netlify.com/sites/operating-systems-101/deploys) 
 
