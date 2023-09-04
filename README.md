@@ -85,10 +85,10 @@ To get started with "Operating Systems 101," you can follow these steps:
 
 Here are some recommended resources for further learning about Operating Systems:
 
-- Operating Systems by P. Balakrishna Prasad [Scitech Publication]
-- Operating System Concepts by Abraham Silberschatz, Peter B. Galvin, Greg 
-- Operating Systems - H.M. Deitel - Addision Wesley
-- Operating System : A.S.Godbole (TMH Publication)
+- [Operating Systems by P. Balakrishna Prasad [Scitech Publication]] ()
+- [Operating System Concepts by Abraham Silberschatz, Peter B. Galvin, Greg] ()
+- [Operating Systems - H.M. Deitel - Addision Wesley] ()
+- [Operating System : A.S.Godbole (TMH Publication)] ()
 
 ## License
 
