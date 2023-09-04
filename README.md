@@ -85,7 +85,9 @@ To get started with "Operating Systems 101," you can follow these steps:
 
 Here are some recommended resources for further learning about Operating Systems:
 
-- [```List of recommended books, websites, and tutorials```]  :')
+- Operating Systems by P. Balakrishna Prasad [Scitech Publication]
+- **Title**: Operating System Concepts
+- **Authors**: Abraham Silberschatz, Peter B. Galvin, Greg 
 
 ## License
 
