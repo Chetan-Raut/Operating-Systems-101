@@ -1,0 +1,30 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+
+<url>
+<loc>https://operating-systems-101.netlify.app/</loc>
+<lastmod>2024-01-06T11:25:32+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://operating-systems-101.netlify.app/units/unit1/unit1</loc>
+<lastmod>2024-01-06T11:25:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://operating-systems-101.netlify.app/units/unit2/unit2</loc>
+<lastmod>2024-01-06T11:25:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://operating-systems-101.netlify.app/units/unit3/unit3</loc>
+<lastmod>2024-01-06T11:25:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://operating-systems-101.netlify.app/units/unit4/unit4</loc>
+<lastmod>2024-01-06T11:25:32+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
