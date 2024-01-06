@@ -27,7 +27,7 @@
   </head>  
   <body> 
   
- <nav class="navbar bg-body-tertiary fixed-top"> 
+  <nav class="navbar bg-body-tertiary fixed-top"> 
    <div class="container-fluid"> 
      <a class="navbar-brand" href="../../">Operating Systems 101</a> 
      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> 
@@ -77,11 +77,25 @@
       <h2 class="topic-title">Introduction</h2>
       <p>An operating system is software that manages the computer hard-ware. The hardware must provide appropriate mechanisms to ensure the correct operation of the computer system and to prevent programs from interfering with the proper operation of the system.</p>
       </div>
+      <br>
      <ul>
         <h3>Structure of Operating System:</h3>
-        <p>The structure refers to the organization and components of an operating system. This includes the kernel, file system, device drivers, and user interface layers. The kernel is the core that manages hardware resources and provides essential services to applications.</p>
         
-        <h3>Operating System Functions:</h3> 
+        <p>The structure refers to the organization and components of an operating system. This includes the kernel, file system, device drivers, and user interface layers. The kernel is the core that manages hardware resources and provides essential services to applications.</p>
+        <h3 class="intro">Simple Structure:</h3>
+        <p>One way to achieve modularity in the operating system is the layered approach. In this, the bottom layer is the hardware and the topmost layer is the user interface.
+An image demonstrating the layered approach is as follows −</p>        
+         <img src="../../src/Layered Structure of Operating System.png" height="150px" alt="">       
+        <br>
+        <br>
+     <h3 class="intro">Layered Structure:</h3>   
+        <p>There are many operating systems that have a rather simple structure. These started as small systems and rapidly expanded much further than their scope. A common example of this is MS-DOS. It was designed simply for a niche amount for people. There was no indication that it would become so popular.
+An image to illustrate the structure of MS-DOS is as follows −
+</p>
+        
+        <img src="../../src/Structure of MS-DOS.png" height="150px" alt="">
+      
+        <h3><br>Operating System Functions:</h3> 
         <p>Operating systems perform various functions, including process management, memory management, file system management, and device management. Process management involves creating, scheduling, and terminating processes. Memory management ensures efficient memory allocation and deallocation. File system management handles storage and retrieval of files. Device management manages communication with hardware devices.
      <br>   Certainly! Here are more detailed points explaining each of the operating system functions:</p>
 
@@ -136,7 +150,7 @@
 
 <p>In summary,<br> the operating system performs a multitude of functions that are vital for managing resources, enabling communication, ensuring security, and providing a user-friendly interface within a computer system.</p>
         
-        <h3>Characteristics of Modern OS:</h3> <p>Modern operating systems possess several characteristics:</p>
+        <h3 class="intro">Characteristics of Modern OS:</h3> <p>Modern operating systems possess several characteristics:</p>
      
       <ul>
         <li><strong>Multiuser:</strong> Modern operating systems allow multiple users to access and use the system simultaneously.</li>
@@ -156,6 +170,8 @@
       <h2 class="topic-title" id="Process-M">Process Management</h2>
       <p>Dive into the world of processes in operating systems. Understand the different states a process can be in, learn how processes are created and terminated, and explore the operations that can be performed on processes. Additionally, explore concepts related to concurrent processes, threads, and microkernels.</p>
        <h2>States of a Process:</h2>
+       <img src="../../src/process states.jpg" height="200px" alt="Process States">
+       <br>
     <ol>
         <li><b>New:</b> The process is being created but not yet ready to execute.</li>
         <li><b>Ready: </b>The process is waiting to be assigned to a processor for execution.</li>
@@ -164,7 +180,7 @@
         <li><b>Terminated (Exit):</b> The process has finished executing.</li>
     </ol>
 
-  <h2>Processes vs Threads</h2>
+    <h2>Processes vs Threads</h2>
 
 <table>
   <tr>
@@ -174,55 +190,55 @@
   </tr>
   <tr>
     <td><strong>Definition</strong></td>
-    <td data-label="Processes">An independent program in execution, with its own memory space and resources.</td>
-    <td data-label="Threads">A smaller unit of a process, sharing memory space and resources within the same process.</td>
+    <td>An independent program in execution, with its own memory space and resources.</td>
+    <td>A smaller unit of a process, sharing memory space and resources within the same process.</td>
   </tr>
   <tr>
     <td><strong>Resource Overhead</strong></td>
-    <td data-label="Processes">Higher overhead due to separate memory space and resources for each process.</td>
-    <td data-label="Threads">Lower overhead as threads within a process share resources.</td>
+    <td>Higher overhead due to separate memory space and resources for each process.</td>
+    <td>Lower overhead as threads within a process share resources.</td>
   </tr>
   <tr>
     <td><strong>Communication</strong></td>
-    <td data-label="Processes">More complex and slower inter-process communication (IPC) mechanisms required.</td>
-    <td data-label="Threads">Easier communication via shared memory.</td>
+    <td>More complex and slower inter-process communication (IPC) mechanisms required.</td>
+    <td>Easier communication via shared memory.</td>
   </tr>
   <tr>
     <td><strong>Isolation</strong></td>
-    <td data-label="Processes">Processes are isolated, preventing direct impact on others.</td>
-    <td data-label="Threads">Threads share memory, so a bug in one thread can affect others.</td>
+    <td>Processes are isolated, preventing direct impact on others.</td>
+    <td>Threads share memory, so a bug in one thread can affect others.</td>
   </tr>
   <tr>
     <td><strong>Creation Time</strong></td>
-    <td data-label="Processes">Creating a new process is more time-consuming.</td>
-    <td data-label="Threads">Creating a new thread is generally quicker.</td>
+    <td>Creating a new process is more time-consuming.</td>
+    <td>Creating a new thread is generally quicker.</td>
   </tr>
   <tr>
     <td><strong>Switching Overhead</strong></td>
-    <td data-label="Processes">Switching between processes requires more overhead.</td>
-    <td data-label="Threads">Thread switching within a process is quicker and requires less overhead.</td>
+    <td>Switching between processes requires more overhead.</td>
+    <td>Thread switching within a process is quicker and requires less overhead.</td>
   </tr>
   <tr>
     <td><strong>Failure Isolation</strong></td>
-    <td data-label="Processes">Process failures don't affect other processes.</td>
-    <td data-label="Threads">A failure in one thread can affect the entire process.</td>
+    <td>Process failures don't affect other processes.</td>
+    <td>A failure in one thread can affect the entire process.</td>
   </tr>
   <tr>
     <td><strong>Scalability</strong></td>
-    <td data-label="Processes">May not fully utilize multi-core processors for scalability.</td>
-    <td data-label="Threads">Can lead to better scalability on multi-core processors.</td>
+    <td>May not fully utilize multi-core processors for scalability.</td>
+    <td>Can lead to better scalability on multi-core processors.</td>
   </tr>
   <tr>
     <td><strong>Parallelism</strong></td>
-    <td data-label="Processes">Offers true parallelism as processes run independently.</td>
-    <td data-label="Threads">May not provide true parallelism within a process.</td>
+    <td>Offers true parallelism as processes run independently.</td>
+    <td>May not provide true parallelism within a process.</td>
   </tr>
 </table>
 
     </div>
     
     <div class="topic">
-      <h2 class="topic-title" id="CPU-Scheduling">CPU Scheduling</h2>
+      <h2 class="topic-title intro" id="CPU-Scheduling">CPU Scheduling</h2>
      <p> CPU scheduling is a crucial aspect of an operating system that determines how the central processing unit (CPU) handles multiple processes concurrently. Different processes compete for CPU time, and the goal is to optimize resource utilization and response time.</p>
      
 <p>There are several types of CPU scheduling algorithms:
@@ -230,23 +246,177 @@
 
 <ol>
    <li><b>First-Come, First-Served (FCFS):</b></li>
-    <p>Processes are executed in the order they arrive in the ready queue. It's simple but can lead to the "convoy effect," where short processes are delayed by longer ones.
-</p>
+    <p>1. Processes are executed in the order they arrive in the ready queue.</p>
+  <p>2. The first process in the queue gets the CPU until it completes.</p>
+  <p>3. FCFS is non-preemptive, meaning a process runs until it finishes or blocks.</p>
+  <p>4. Can result in a "convoy effect" where short processes wait behind long ones.</p>
+<p>Below is the list table of process as per burst time:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+  <tr>
+    <th style="border: 1px solid black; padding: 8px; text-align: left; background-color: hotpink;">Process</th>
+    <th style="border: 1px solid black; padding: 8px; text-align: left; background-color: hotpink;">Burst Time</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">P1</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">24</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">P2</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">3</td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">P3</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: left;">4</td>
+  </tr>
+</table>
+  
+    <div style="display: flex; align-items: flex-end; height: 100px;">
+    <div style="flex: 20; text-align: center; padding: 10px; border: 1px solid #000; background-color: #6495ED; margin-right: 5px;">
+      P1
+      <br>
+      0
+    </div>
+    <div style="flex: 3; text-align: center; padding: 10px; border: 1px solid #000; background-color: #66CDAA; margin-right: 5px;">
+      P2
+      <br>
+      24
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #FFD700;">
+      P3
+      <br>
+      27
+    </div>
+    <div style="flex: 1; text-align: center; padding: 10px; border: 1px solid #000; background-color: #CD5C5C; margin-left: 5px;">
+      <br>
+      31
+    </div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <strong>Calculations:</strong><br>
+    Individual Waiting Time:
+    P1: 0,
+    P2: 24,
+    P3: 27<br>
+    Individual Turn Around Time:
+    P1: 24,
+    P2: 27,
+    P3: 31<br>
+    Average Waiting Time: (0 + 24 + 27) / 3 = 17<br>
+    Average Turn Around Time: (24 + 27 + 31) / 3 = 27.33
+  </div>
+  
    <li><b>Shortest Job Next (SJN) / Shortest Job First (SJF)</b></li>
    <p>The process with the smallest execution time is given priority. This minimizes average waiting time but requires knowledge of process durations, which might not be available.
 </p>
+<p>1. Selects the process with the shortest burst time first.</p>
+  <p>2. Non-preemptive SJF allows a process to run until completion before selecting the next.</p>
+  <p>3. Preemptive SJF allows a shorter job to interrupt and run before a longer one.</p>
+  <p>4. Reduces waiting times for shorter jobs, aiming for optimal completion times.</p>
+<h2>Non-Preemptive SJF</h2>
+
+  <div style="display: flex; align-items: flex-end; height: 100px;">
+    <div style="flex: 3; text-align: center; padding: 10px; border: 1px solid #000; background-color: #66CDAA; margin-right: 5px;">
+      P2<br>0 - 3
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #FFD700; margin-right: 5px;">
+      P3<br>3 - 7
+    </div>
+    <div style="flex: 20; text-align: center; padding: 10px; border: 1px solid #000; background-color: #6495ED; margin-right: 5px;">
+      P1<br>7 - 31
+    </div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <strong>Calculations:</strong><br>
+    Individual Waiting Time:
+    P1: 3,
+    P2: 0,
+    P3: 3<br>
+    Individual Turn Around Time:
+    P1: 31,
+    P2: 3,
+    P3: 7<br>
+    Average Waiting Time: (3 + 0 + 3) / 3 = 2<br>
+    Average Turn Around Time: (31 + 3 + 7) / 3 = 13.67
+  </div>
+
+  <h2 style="margin-top: 40px;">Preemptive SJF</h2>
+
+  <div style="display: flex; align-items: flex-end; height: 100px;">
+    <div style="flex: 3; text-align: center; padding: 10px; border: 1px solid #000; background-color: #66CDAA; margin-right: 5px;">
+      P2<br>0 - 3<br>12 - 20
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #FFD700; margin-right: 5px;">
+      P3<br>3 - 7
+    </div>
+    <div style="flex: 8; text-align: center; padding: 10px; border: 1px solid #000; background-color: #6495ED; margin-right: 5px;">
+      P1<br>7 - 15<br>20 - 31
+    </div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <strong>Calculations:</strong><br>
+    Individual Waiting Time:
+    P1: 1,
+    P2: 0,
+    P3: 3<br>
+    Individual Turn Around Time:
+    P1: 31,
+    P2: 20,
+    P3: 7<br>
+    Average Waiting Time: (1 + 0 + 3) / 3 = 1.33<br>
+    Average Turn Around Time: (31 + 20 + 7) / 3 = 19.33
+  </div>
+  
    <li><b>Priority Scheduling:</b></li>
    <p>Each process is assigned a priority, and the CPU executes the highest priority process first. It can be preemptive (priorities can change dynamically) or non-preemptive (once a process starts, it continues until completion).</p>
    <li><b>Round Robin (RR):</b></li> 
-   <p>Each process gets a fixed time slice (quantum) to execute. If the process doesn't complete in its time slice, it's moved to the back of the queue. It's fair and prevents long processes from hogging the CPU.</p>
+   <p>Each process gets a fixed time slice (quantum) to execute. If the process doesn't complete in its time slice, it's moved to the back of the queue. It's fair and prevents long processes from hogging the CPU.</p> 
+   <p>1. Divides CPU time into fixed time slices (time quantum).</p>
+  <p>2. Processes are arranged in a circular queue.</p>
+  <p>3. Preemption occurs if a process's burst time exceeds the time quantum, promoting fairness.</p>
+  <p>4. Context switch happens at the start/end of each time quantum to transition between processes.</p>
+  
+     <div style="display: flex; align-items: flex-end; height: 150px;">
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #66CDAA; margin-right: 5px;">
+      P1<br>0 - 4<br>12 - 16<br>20 - 24
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #FFD700; margin-right: 5px;">
+      P2<br>4 - 8<br>16 - 20
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #6495ED; margin-right: 5px;">
+      P3<br>8 - 12<br>24 - 27
+    </div>
+    <div style="flex: 4; text-align: center; padding: 10px; border: 1px solid #000; background-color: #CD5C5C; margin-right: 5px;">
+      P4<br>27 - 30
+    </div>
+  </div>
+
+  <div style="margin-top: 20px;">
+    <strong>Calculations:</strong><br>
+    Individual Waiting Time:
+    P1: 4,
+    P2: 8,
+    P3: 12,
+    P4: 27<br>
+    Individual Turn Around Time:
+    P1: 16,
+    P2: 20,
+    P3: 27,
+    P4: 30<br>
+    Average Waiting Time: (4 + 8 + 12 + 27) / 4 = 12.75<br>
+    Average Turn Around Time: (16 + 20 + 27 + 30) / 4 = 23.25
+  </div>
+  
    <li><b>Multilevel Queue Scheduling:</b></li>
    <p>Processes are divided into different queues based on priority. Each queue has its own scheduling algorithm. Processes move between queues based on their behavior and priority.</p>
    <li><b>Multilevel Feedback Queue Scheduling:</b></li>
    <p>Similar to multilevel queues, but processes can move between queues based on their behavior and recent CPU usage. This allows processes to move to a more appropriate priority queue.</p>
  </ol>
 
-<p>These algorithms aim to balance the trade-offs between throughput, response time, fairness, and system efficiency based on the specific needs of the computing environment. Different scenarios may require different scheduling strategies.</p>
-           
+<p>These algorithms aim to balance the trade-offs between throughput, response time, fairness, and system efficiency based on the specific needs of the computing environment. Different scenarios may require different scheduling strategies.</p>           
     </div>
   </div>
 </section>
